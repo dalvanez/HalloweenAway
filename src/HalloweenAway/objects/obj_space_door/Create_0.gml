@@ -59,6 +59,8 @@ toggle = function() {	//Let a lever toggle this door's state
 			unlock();
 			break;
 		default:
+			phy_position_x = start_x;
+			phy_position_y = start_y;
 			lock();
 			break;
 	}

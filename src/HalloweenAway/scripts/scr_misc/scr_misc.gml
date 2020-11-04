@@ -4,7 +4,7 @@ function give_score(amount) {
 	with instance_create_layer(x,y,"BGUI",obj_scorecard) {
 		value = amount;
 	}
-	score+=amount;
+	score = clamp(score+amount,0,infinity);
 }
 
 //@function				scr_none()

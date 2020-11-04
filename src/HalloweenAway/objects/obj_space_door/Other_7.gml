@@ -7,8 +7,8 @@ switch(open) {
 		image_index = image_number-1;
 		break;
 	default:
-		x = start_x;
-		y = start_y;
+		phy_position_x = start_x;
+		phy_position_y = start_y;
 		image_speed = 0;
 		image_index = 0;
 		break;

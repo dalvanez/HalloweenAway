@@ -175,6 +175,7 @@ function player_hurt(dmg) {
 //@description			Checks the players health and determines if they lose or not
 function player_check_health() {
 	if hp<=0 && !instance_exists(obj_slash) {
+		give_score(-1000);
 		instance_create_layer(x,y,"GUI",obj_slash);
 		play_sound(snd_helmet_break);
 		part_particles_create(player_fx,x,y,glass_shatter,irandom_range(32,70));

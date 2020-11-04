@@ -1,0 +1,1 @@
+/// @description Solid, immmovable parent object for obstacles to use.

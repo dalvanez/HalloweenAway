@@ -1,0 +1,53 @@
+{
+  "spriteId": {
+    "name": "spr_space_door",
+    "path": "sprites/spr_space_door/spr_space_door.yy",
+  },
+  "solid": true,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_collision",
+    "path": "objects/obj_collision/obj_collision.yy",
+  },
+  "physicsObject": true,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.0,
+  "physicsRestitution": 0.0,
+  "physicsLinearDamping": 0.0,
+  "physicsAngularDamping": 0.0,
+  "physicsFriction": 0.0,
+  "physicsStartAwake": true,
+  "physicsKinematic": true,
+  "physicsShapePoints": [
+    {"x":0.0,"y":6.0,},
+    {"x":64.0,"y":6.0,},
+    {"x":64.0,"y":10.0,},
+    {"x":0.0,"y":10.0,},
+  ],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_space_door","path":"objects/obj_space_door/obj_space_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_space_door","path":"objects/obj_space_door/obj_space_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_space_door","path":"objects/obj_space_door/obj_space_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [
+    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"open","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":3,"value":"True","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"locked","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"keycard","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"-1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"lever","tags":[],"resourceType":"GMObjectProperty",},
+  ],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Obstacles",
+    "path": "folders/Objects/Game/Obstacles.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_space_door",
+  "tags": [
+    "lever",
+  ],
+  "resourceType": "GMObject",
+}

@@ -20,8 +20,15 @@ function get_time_spent() {
 	return (string(_min)+" minute(s), "+string(_sec)+" seconds.");
 }
 
-//@function			get_time_spent();
+//@function			get_candy_collected();
 //@description		Returns a string containing the time spent playing
 function get_candy_collected() {
 	return (string(obj_global.candy_collected)+"/"+string(obj_global.candy_total));
+}
+
+//@function			get_time_spent();
+//@description		Returns a string containing the time spent playing
+function get_total_score() {
+	if (obj_global.time_spent>0) score+=((720 div obj_global.time_spent)*1200);
+	return (string(score));
 }

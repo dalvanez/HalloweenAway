@@ -145,7 +145,7 @@ function queue_cutscene_texts(cs,queue){
 			ds_queue_enqueue(queue,"_name_Credits","Note:\nFull Links in Credits.txt");	
 			ds_queue_enqueue(queue,"_name_Credits","Programming:\nDarius Alvanez");	
 			ds_queue_enqueue(queue,"_name_Credits","Good Vibes:\nYou");	
-			ds_queue_enqueue(queue,"_name_Credits","Stats:\nTime Spent - "+get_time_spent()+"\nCandy Collected - "+get_candy_collected()+".");	
+			ds_queue_enqueue(queue,"_name_Credits","Stats:\nTotal Score - "+get_total_score()+"\nTime Spent - "+get_time_spent()+"\nCandy Collected - "+get_candy_collected()+".");	
 			ds_queue_enqueue(queue,"_name_END","Thanks for playing!\n\nMade in 1 Day, 2 hours.");	
 			ds_queue_enqueue(queue,"_end_");
 			break;
